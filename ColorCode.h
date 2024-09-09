@@ -12,7 +12,8 @@ namespace TelCoColorCoder
     extern int numberOfMajorColors;
     extern const char* MinorColorNames[];
     extern int numberOfMinorColors;
-     
+   
+
     class ColorPair {
         private:
             MajorColor majorColor;
@@ -26,6 +27,7 @@ namespace TelCoColorCoder
 
     ColorPair GetColorFromPairNumber(int pairNumber);
     int GetPairNumberFromColor(MajorColor major, MinorColor minor);
+    std::string printColorCodingManual();
 }
 
 #endif
